@@ -8,6 +8,7 @@ body {
     height: 20%;
     padding: 2%;
     background-color: #8889cc;
+    border-bottom: black solid 2px;
 }
 .icon_github {
     fill: #8889cc;
@@ -38,6 +39,7 @@ body {
     background-color: #8889cc;
     display: flex;
     justify-content: center;
+    border: black solid 2px;
 }
 .img_modulo img {
     height: 100%;
@@ -46,7 +48,12 @@ body {
     margin-left: 4%;
     width: 40%;
     height: 100%;
-    background-color: beige;
+    /* background-color: beige; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: black solid 2px;
 }
 .cont_modulo p {
     margin-left: 5%;
@@ -65,11 +72,17 @@ body {
     font-size: large;
     text-decoration: none;
     background-color: #8889cc;
+    border: black solid 2px;
     border-radius: 30px;
     padding-top: 1%;
     padding-bottom: 1%;
     padding-left: 2.5%;
     padding-right: 2.5%;
+    width: 200px;
+    text-align: center;
+}
+.btn_descargar:hover {
+    background-color: #6566a5;
 }
 .btn_copiar {
     cursor: pointer;
