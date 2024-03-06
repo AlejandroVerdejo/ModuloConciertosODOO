@@ -94,3 +94,24 @@ body {
 #texto_copiar {
     margin-left: 15px;
 }
+#manual {text-decoration: none;}
+#manual div {
+    width: 250px;
+    border: black solid 2px;
+    border-radius: 15px;
+    color: #3d3659;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    top: 30px;
+    margin-left: 75%;
+    text-align: center;
+}
+#manual img {
+    width: 20px;
+}
+#manual .icon {
+    float: left;
+    width: 50px;
+}
